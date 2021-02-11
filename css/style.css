@@ -781,7 +781,6 @@ textarea::placeholder {
   background: #212121;
 }
 .agreement {
-  display: block;
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color);
@@ -818,6 +817,9 @@ textarea::placeholder {
   background-size: contain;
   background-origin: border-box;
   border-color: var(--accent-color);
+}
+.agreement a {
+  color: var(--accent-color);
 }
 .sending-button {
   margin-top: 30px;
